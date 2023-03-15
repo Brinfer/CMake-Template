@@ -1,0 +1,9 @@
+skinparam shadowing false
+skinparam RoundCorner 7
+
+' https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html
+hide empty members
+hide empty circle
+hide empty description
+hide footbox
+

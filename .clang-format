@@ -1,0 +1,69 @@
+﻿---
+AlignAfterOpenBracket: DontAlign
+AlignEscapedNewlines: Left
+AlignOperands: 'true'
+AllowAllParametersOfDeclarationOnNextLine: 'false'
+AllowShortBlocksOnASingleLine: 'false'
+AllowShortCaseLabelsOnASingleLine: 'false'
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: 'false'
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+BraceWrapping:
+  AfterClass:            true
+  AfterControlStatement: true
+  AfterEnum:             true
+  AfterFunction:         true
+  AfterNamespace:        true
+  AfterObjCDeclaration:  true
+  AfterStruct:           true
+  AfterUnion:            true
+  AfterExternBlock:      true
+  BeforeCatch:           true
+  BeforeElse:            true
+  IndentBraces:          false
+  SplitEmptyFunction:    true
+  SplitEmptyRecord:      true
+  SplitEmptyNamespace:   true
+BinPackArguments: 'false'
+BinPackParameters: 'false'
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Custom
+BreakBeforeTernaryOperators: 'true'
+ColumnLimit: '120'
+CommentPragmas: ^\|                   # avoid the formatting of the table in the doxygen
+Cpp11BracedListStyle: 'true'
+FixNamespaceComments: 'true'
+IncludeBlocks: Regroup
+IndentCaseLabels: 'true'
+IndentExternBlock: false
+IndentWidth: '4'
+IndentWrappedFunctionNames: 'true'
+KeepEmptyLinesAtTheStartOfBlocks: 'false'
+Language: Cpp
+MaxEmptyLinesToKeep: '1'
+PenaltyBreakAssignment: '999'         # absurdly large number to avoid line break after a assignment and prefer to make line breaks in the function parameters or between the different operators
+PenaltyReturnTypeOnItsOwnLine: '999'  # absurdly large number to avoid return type is on its own line
+PointerAlignment: Right
+ReflowComments: 'true'
+SortIncludes: 'true'
+SortUsingDeclarations: 'true'
+SpaceAfterCStyleCast: 'true'
+SpaceAfterLogicalNot: 'false'
+SpaceAfterTemplateKeyword: 'false'
+SpaceBeforeAssignmentOperators: 'true'
+SpaceBeforeCpp11BracedList: 'false'
+SpaceBeforeCtorInitializerColon: 'false'
+SpaceBeforeInheritanceColon: 'false'
+SpaceBeforeParens: ControlStatements
+SpacesBeforeTrailingComments: '1'
+SpacesInAngles: 'false'
+SpacesInCStyleCastParentheses: 'false'
+SpacesInContainerLiterals: 'false'
+SpacesInParentheses: 'false'
+SpacesInSquareBrackets: 'false'
+TabWidth: '120'
+UseTab: Never
+
+...
