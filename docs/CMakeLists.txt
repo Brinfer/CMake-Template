@@ -100,7 +100,7 @@ function(CREATE_DOXYGEN_TARGET target)
     set_property(
         TARGET ${doxygen_target}
         APPEND
-        PROPERTY ADDITIONAL_CLEAN_FILES ${DOXYGEN_BUILD})
+        PROPERTY ADDITIONAL_CLEAN_FILES ${DOXYGEN_OUTPUT_DIRECTORY})
 
     add_doxygen_target_to_docs(${doxygen_target})
     message(CHECK_PASS "successfully configured")
