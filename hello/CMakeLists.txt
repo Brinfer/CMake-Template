@@ -6,6 +6,6 @@ if(COMMAND reference_target_for_analysis)
     reference_target_for_docs(hello)
 endif(COMMAND reference_target_for_analysis)
 
-if(COMMAND reference_target_for_analysis)
+if(COMMAND reference_target_for_docs)
     reference_target_for_docs(hello)
 endif(COMMAND reference_target_for_analysis)
