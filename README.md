@@ -1,4 +1,4 @@
-# Flowmeter
+# CMake Template
 
 ## Documentation
 
