@@ -7,7 +7,7 @@ project(
     flowmeters
     VERSION 0.0.1
     DESCRIPTION "Manageme a flowmeter using the HART protocol")
-set(PROJECT_AUTHOR "Coactum SA")
+set(PROJECT_AUTHOR "Brinfer")
 set(PROJECT_COPYRIGHT "2022, ${PROJECT_AUTHOR}")
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
